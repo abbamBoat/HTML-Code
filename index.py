@@ -1,7 +1,10 @@
 print('new branch')
 
-class Add(a, b):
-  return a + b
 
-addition = Add(2, 3)
+def add(a, b):
+    return a + b
+
+addition = add(2, 3)
 print(addition)
+
+  
